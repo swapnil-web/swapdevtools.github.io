@@ -1,0 +1,19 @@
+*{
+	box-sizing: border-box;
+	width: 100%;
+}
+.copy_icon1{
+color: black;
+box-shadow: 2px solid greay;
+}
+.copy_icon2{
+color: black;
+box-shadow: 2px solid greay;
+}
+.fa-copy:before, .fa-files-o:before {
+    content: "\f0c5";
+    float: right;
+    position: relative;
+    top: -34px;
+    right: 10px;
+}

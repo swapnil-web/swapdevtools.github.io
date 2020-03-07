@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Convert Lower Case to Upper Case Online</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="jsfile.js"></script>
+	<link rel="stylesheet" type="text/css" href="text.css">
+</head>
+<body>
+<div class="heading">
+	<h1 class="text-uppercase text-center">Convert Lower Case to Upper Case and Upper Case to Lower Case Online
+		<hr style="color:red; height:2px;  width:100%">
+</div>	
+<div class="container">
+	<div class="row">
+		<div class="col-md-2">
+
+		</div>
+		<div class="col-md-4">
+			<h2>Convert Lower Case to Upper Case</h2>
+			<hr>
+			<div class="form-group">
+				<lable>Lower Case Text</lable>
+				<input type="text" class="form-control" name="lowers" id="lower">
+			</div>
+			<div class="form-group">
+				<lable>Convret Text Uper Case</lable>
+				<input type="text" class="form-control" name="uppers" id="upper"><i class="fa fa-copy copy_icon1" onclick="copy1()" style="font-size:24px"></i>
+			</div>
+			<input type="submit" value="Convert" class="form-control btn btn-success" onclick="lowertouppers();">
+
+		</div>
+		<div class="col-md-4">
+
+			<h2>Convert Upper Case to Lower Case</h2>
+			<hr>
+			<div class="form-group">
+				<lable>Upper Case Text</lable>
+				<input type="text" class="form-control text1"  name="upper1" id="uppers">
+			</div>
+			<div class="form-group">
+				<lable>Convret Text Lower Case</lable>
+				<input type="text" class="form-control text1" name="lower1" id="lowers"><i class="fa fa-copy copy_icon2" onclick="copy2()" style="font-size:24px"></i>
+			</div>
+			<input type="submit" value="Convert" class="form-control btn btn-success" onclick="uppertouppers();">
+
+
+		</div>
+		<div class="col-md-2">
+
+		</div>
+	</div>
+</div>
+</body>
+</html>
